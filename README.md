@@ -63,7 +63,7 @@ Program to verify the truth table in quartus for the basic logic gates using Ver
 Developed by: M.Harikrishna
 
 RegisterNumber: 212221230059.
-
+~~~
 module ex1(a,b,y1,y2,y3,y4,y5,y6,y7);
 input a,b;
 output y1,y2,y3,y4,y5,y6,y7;
@@ -75,6 +75,7 @@ nand (y5,a,b);
 nor (y6,a,b);
 xnor (y7,a,b);
 endmodule 
+~~~
 Output:
 Logic symbol & Truthtable
 ![image](https://user-images.githubusercontent.com/94882905/196091010-515b4dcd-1b17-436f-a789-95d5e7f4f2c9.png)
